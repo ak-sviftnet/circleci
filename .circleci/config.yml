@@ -38,7 +38,8 @@ jobs:
     steps:
       - run:
           name: Make executable
-          command: chmod +x ../install.sh
+          #command: chmod +x install.sh
+          command: pwd
       - run:
           name: Deploy over SSH
           command: ./install.sh
