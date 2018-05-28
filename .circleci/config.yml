@@ -35,7 +35,7 @@ jobs:
       enabled: true
     steps:
       - run: chmod +x install.sh
-      - run: sh .install.sh
+      - run: ./install.sh
 
 workflows:
   version: 2
