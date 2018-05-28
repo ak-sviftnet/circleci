@@ -34,11 +34,8 @@ jobs:
     machine:
       enabled: true
     steps:
-      - run: cd ..
-      - run: pwd
-      - run: ls
-      - run: chmod +x ../install.sh
-      - run: sh ../install.sh
+      - run: chmod +x install.sh
+      - run: sh .install.sh
 
 workflows:
   version: 2
