@@ -35,9 +35,9 @@ jobs:
   deploy:
     machine:
       enabled: true
-    commands:
-      - chmod +x install.sh
-      - sh ./install.sh
+    steps:
+      - run: chmod +x install.sh
+      - run: sh ./install.sh
 
 workflows:
   version: 2
