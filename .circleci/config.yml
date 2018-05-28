@@ -31,14 +31,14 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
       # run tests!
       # - run: yarn test
-      
+
 deploy:
   machine:
     enabled: true
   steps:
     - run:
       name: Deploy over SSH
-      command: $SSH_USER@$SSH_HOST ./install.sh
+      command: echo "Deploying (sort of)"
 
 workflows:
   version: 2
