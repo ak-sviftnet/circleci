@@ -39,7 +39,7 @@ jobs:
       - run:
           name: Make executable
           #command: chmod +x install.sh
-          command: pwd && ls
+          command: cd.. && ls
       - run:
           name: Deploy over SSH
           command: ./install.sh
