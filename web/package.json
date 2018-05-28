@@ -1,0 +1,13 @@
+{
+  "name": "iiota.dk",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Anders Kirkeby",
+  "license": "ISC",
+  "scripts": {},
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {}
+}
