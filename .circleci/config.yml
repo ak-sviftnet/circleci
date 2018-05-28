@@ -37,8 +37,8 @@ jobs:
       enabled: true
     steps:
       - run:
-        name: Deploy over SSH
-        command: echo "Deploying (sort of)"
+          name: Deploy over SSH
+          command: echo "Deploying (sort of)"
 
 workflows:
   version: 2
