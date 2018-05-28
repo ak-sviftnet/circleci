@@ -36,13 +36,9 @@ jobs:
     machine:
       enabled: true
     steps:
-      - run:
-          name: Make executable
-          #command: chmod +x install.sh
-          command: cd.. && ls
-      - run:
-          name: Deploy over SSH
-          command: ./install.sh
+      commands:
+        - chmod +x install.sh
+        - sh ./install.sh
 
 workflows:
   version: 2
