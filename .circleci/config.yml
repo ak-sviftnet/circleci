@@ -36,6 +36,7 @@ jobs:
     machine:
       enabled: true
     steps:
+      - run: cd ..
       - run: pwd
       - run: ls
       - run: chmod +x ../install.sh
