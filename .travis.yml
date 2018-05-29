@@ -4,4 +4,4 @@ services:
   - docker
 
 before_install:
-  - docker build webs
+  - docker build web
